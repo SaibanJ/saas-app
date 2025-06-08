@@ -5,7 +5,7 @@ const Page = () => {
   return (
     <div>
       <h1 className="text-2xl underline">Hello. Welcome to Converso.</h1>
-      <Button>Let's get started</Button>
+      <Button>Let's get started yay</Button>
     </div>
   )
 }
