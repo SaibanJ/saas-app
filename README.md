@@ -1,4 +1,4 @@
-# Converso - Real-time AI Teaching Platform
+[# Converso - Real-time AI Teaching Platform
 
 **Purpose:** A SaaS application built with Next.js and Clerk authentication.
 
@@ -184,3 +184,4 @@ When answering questions about Clerk + Next.js integration, your response **MUST
 > ```
 
 ---
+]()

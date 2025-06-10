@@ -4,10 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f049269-17bb-4727-9024-e22ad1d7cff8" name="Changes" comment="integrated supabase">
+    <list default="true" id="1f049269-17bb-4727-9024-e22ad1d7cff8" name="Changes" comment="implement companion library">
+      <change afterPath="$PROJECT_DIR$/components/SearchInput.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/SubjectFilter.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/vapi.sdk.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/companions/[id]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/companions/[id]/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/companions/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/companions/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/actions/companion.actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/actions/companion.actions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +64,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "npm.dev.executor": "Debug",
     "settings.editor.selected.configurable": "settings.sync",
     "ts.external.directory.path": "/Users/jrs/dev/saas-app/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
@@ -68,6 +77,23 @@
       <recent name="$PROJECT_DIR$/saas-app/components" />
       <recent name="$PROJECT_DIR$/saas-app/lib" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -84,7 +110,7 @@
       <option name="presentableId" value="Default" />
       <updated>1749398613838</updated>
       <workItem from="1749398615080" duration="141000" />
-      <workItem from="1749398762747" duration="41285000" />
+      <workItem from="1749398762747" duration="57785000" />
     </task>
     <task id="LOCAL-00001" summary="New functional nav bar using pathname hook.">
       <option name="closed" value="true" />
@@ -126,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749487950350</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="implement companion library">
+      <option name="closed" value="true" />
+      <created>1749490793733</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1749490793733</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +230,7 @@
     <MESSAGE value="implement home sections" />
     <MESSAGE value="implement major changes" />
     <MESSAGE value="integrated supabase" />
-    <option name="LAST_COMMIT_MESSAGE" value="integrated supabase" />
+    <MESSAGE value="implement companion library" />
+    <option name="LAST_COMMIT_MESSAGE" value="implement companion library" />
   </component>
 </project>
