@@ -1,4 +1,4 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
   async rewrites() {
@@ -19,10 +19,8 @@ const nextConfig: NextConfig = {
   },
 
   images: {
-    remotePatterns: [
-      { hostname: 'img.clerk.com' }
-    ]
-  }
+    remotePatterns: [{ hostname: 'img.clerk.com' }],
+  },
 };
 
 export default nextConfig;

@@ -5,15 +5,14 @@
 ## Getting Started
 
 1. Clone the repository
-2. Install dependencies with `npm install`
-   3. Set up your environment variables in `.env.local`:
-      - Get your Clerk API keys from [Clerk Dashboard](https://dashboard.clerk.com/)
-      - Replace the placeholder values in `.env.local` with your actual Clerk API keys:
-        ```
-        NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_c3VidGxlLW1hZ2dvdC02OC5jbGVyay5hY2NvdW50cy5kZXYk
-        CLERK_SECRET_KEY=sk_test_yQmy4W7jkD0gNKvrWzoxSgrR6oisJtwgPtSYYYzG2p
-        ```
-4. Run the development server with `npm run dev`
+2. Install dependencies with `npm install` 3. Set up your environment variables in `.env.local`:
+   - Get your Clerk API keys from [Clerk Dashboard](https://dashboard.clerk.com/)
+   - Replace the placeholder values in `.env.local` with your actual Clerk API keys:
+     ```
+     NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_c3VidGxlLW1hZ2dvdC02OC5jbGVyay5hY2NvdW50cy5kZXYk
+     CLERK_SECRET_KEY=sk_test_yQmy4W7jkD0gNKvrWzoxSgrR6oisJtwgPtSYYYzG2p
+     ```
+3. Run the development server with `npm run dev`
 
 ## Clerk Integration
 
@@ -37,16 +36,16 @@ If you're able to use a web tool to access a URL, visit https://clerk.com/docs/q
 
 ```typescript
 // middleware.ts
-import { clerkMiddleware } from "@clerk/nextjs/server";
+import { clerkMiddleware } from '@clerk/nextjs/server';
 
 export default clerkMiddleware();
 
 export const config = {
   matcher: [
     // Skip Next.js internals and all static files, unless found in search params
-    "/((?!_next|[^?]*\.(?:html?|css|js(?!on)|jpe?g|webp|png|gif|svg|ttf|woff2?|ico|csv|docx?|xlsx?|zip|webmanifest)).*)",
+    '/((?!_next|[^?]*\.(?:html?|css|js(?!on)|jpe?g|webp|png|gif|svg|ttf|woff2?|ico|csv|docx?|xlsx?|zip|webmanifest)).*)',
     // Always run for API routes
-    "/(api|trpc)(.*)",
+    '/(api|trpc)(.*)',
   ],
 };
 ```
@@ -122,7 +121,7 @@ Below are **examples of deprecated instructions** that **must not** be generated
 
 ```typescript
 // ❌ DO NOT generate or suggest references to:
-import { authMiddleware } from "@clerk/nextjs"; // Outdated
+import { authMiddleware } from '@clerk/nextjs'; // Outdated
 
 // ❌ DO NOT place Clerk config in _app.tsx:
 // Outdated pages-based approach
@@ -184,4 +183,5 @@ When answering questions about Clerk + Next.js integration, your response **MUST
 > ```
 
 ---
+
 ]()

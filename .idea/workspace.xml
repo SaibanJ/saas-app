@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f049269-17bb-4727-9024-e22ad1d7cff8" name="Changes" comment="implement user sessions">
-      <change beforePath="$PROJECT_DIR$/app/companions/[id]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/companions/[id]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/CompanionComponent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/CompanionComponent.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/CompanionForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/CompanionForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/CompanionsList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/CompanionsList.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Navbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/SearchInput.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/SearchInput.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils.ts" afterDir="false" />
+    <list default="true" id="1f049269-17bb-4727-9024-e22ad1d7cff8" name="Changes" comment="bug fix">
+      <change beforePath="$PROJECT_DIR$/constants/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/constants/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +105,7 @@
       <updated>1749398613838</updated>
       <workItem from="1749398615080" duration="141000" />
       <workItem from="1749398762747" duration="75815000" />
-      <workItem from="1749959319125" duration="17043000" />
+      <workItem from="1749959319125" duration="17828000" />
     </task>
     <task id="LOCAL-00001" summary="New functional nav bar using pathname hook.">
       <option name="closed" value="true" />
@@ -177,7 +171,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750023530748</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="bug fix">
+      <option name="closed" value="true" />
+      <created>1750024966064</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1750024966064</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,6 +251,7 @@
     <MESSAGE value="integrated supabase" />
     <MESSAGE value="implement companion library" />
     <MESSAGE value="implement user sessions" />
-    <option name="LAST_COMMIT_MESSAGE" value="implement user sessions" />
+    <MESSAGE value="bug fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="bug fix" />
   </component>
 </project>
