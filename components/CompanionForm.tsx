@@ -2,7 +2,7 @@
 import { zodResolver } from "@hookform/resolvers/zod"
 import { useForm } from "react-hook-form"
 import { z } from "zod"
-import {FormControl, Form, FormDescription, FormField, FormItem, FormLabel, FormMessage} from "@/components/ui/form";
+import {FormControl, Form, FormField, FormItem, FormLabel, FormMessage} from "@/components/ui/form";
 import {Input} from "@/components/ui/input";
 import {Button} from "@/components/ui/button";
 import {
@@ -12,7 +12,7 @@ import {
     SelectTrigger,
     SelectValue,
 } from "@/components/ui/select"
-import {subjects, voices} from "@/constants";
+import {subjects} from "@/constants";
 import {createCompanion} from "@/lib/actions/companion.actions";
 import {redirect} from "next/navigation";
 
@@ -105,7 +105,7 @@ const CompanionForm = () => {
                         </FormItem>
                     )}
                 />
-                
+
                 <FormField
                     control={form.control}
                     name="topic"
@@ -180,7 +180,7 @@ const CompanionForm = () => {
                         </FormItem>
                     )}
                 />
-                
+
                 <FormField
                     control={form.control}
                     name="duration"
@@ -199,7 +199,7 @@ const CompanionForm = () => {
                         </FormItem>
                     )}
                 />
-                
+
                 <Button type="submit" className="w-full cursor-pointer">Build your companion</Button>
             </form>
         </Form>
