@@ -1,18 +1,55 @@
-[# Converso - Real-time AI Teaching Platform
+# Converso - Real-time AI Teaching Platform
 
-**Purpose:** A SaaS application built with Next.js and Clerk authentication.
+**Purpose:** A SaaS application that provides interactive AI teaching companions for personalized learning experiences.
+
+## Project Overview
+
+Converso is a modern educational platform that connects users with AI teaching companions specialized in various subjects. The platform allows users to:
+
+- Browse and interact with AI teaching companions
+- Track learning progress through the "My Journey" feature
+- Participate in real-time teaching sessions
+- Manage subscriptions for premium features
+
+## Technologies Used
+
+### Frontend
+- **Next.js 15** - React framework with App Router for server-side rendering and routing
+- **React 19** - UI library for building component-based interfaces
+- **TypeScript** - Static type checking for improved code quality
+- **Tailwind CSS 4** - Utility-first CSS framework for styling
+- **Radix UI** - Unstyled, accessible UI components (labels, select, slot)
+- **Lucide React** - Icon library
+- **Lottie React** - Animation library for interactive elements
+- **React Hook Form** - Form handling with validation via Zod and Hookform Resolvers
+
+### Backend & Data
+- **Supabase** - PostgreSQL database with authentication and storage features
+- **Vapi AI** - Voice API integration for conversational AI features
+- **Clerk** - Authentication and user management
+
+### DevOps & Monitoring
+- **Sentry** - Error tracking and performance monitoring
+- **ESLint & Prettier** - Code linting and formatting
+- **TurboRepo** - Monorepo management for optimized builds
+
+### Styling & UI
+- **clsx & tailwind-merge** - Conditional class name utilities
+- **class-variance-authority** - Creating variant components
+- **tw-animate-css** - Animation utilities for Tailwind
 
 ## Getting Started
 
 1. Clone the repository
-2. Install dependencies with `npm install` 3. Set up your environment variables in `.env.local`:
+2. Install dependencies with `npm install`
+3. Set up your environment variables in `.env.local`:
    - Get your Clerk API keys from [Clerk Dashboard](https://dashboard.clerk.com/)
    - Replace the placeholder values in `.env.local` with your actual Clerk API keys:
      ```
      NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_c3VidGxlLW1hZ2dvdC02OC5jbGVyay5hY2NvdW50cy5kZXYk
      CLERK_SECRET_KEY=sk_test_yQmy4W7jkD0gNKvrWzoxSgrR6oisJtwgPtSYYYzG2p
      ```
-3. Run the development server with `npm run dev`
+4. Run the development server with `npm run dev`
 
 ## Clerk Integration
 
