@@ -4,50 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f049269-17bb-4727-9024-e22ad1d7cff8" name="Changes" comment="bug fix">
-      <change afterPath="$PROJECT_DIR$/.prettierignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/companions/[id]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/companions/[id]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/companions/new/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/companions/new/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/companions/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/companions/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/my-journey/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/my-journey/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sign-in/[[...sign-in]]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/sign-in/[[...sign-in]]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/subscription/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/subscription/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components.json" beforeDir="false" afterPath="$PROJECT_DIR$/components.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/CTA.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/CTA.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/CompanionCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/CompanionCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/CompanionComponent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/CompanionComponent.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/CompanionForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/CompanionForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/CompanionsList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/CompanionsList.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/NavItems.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/NavItems.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Navbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/SearchInput.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/SearchInput.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/SubjectFilter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/SubjectFilter.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/form.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/input.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/input.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/label.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/label.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/select.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/select.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/table.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/table.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/textarea.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/textarea.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/constants/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/constants/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/constants/soundwaves.json" beforeDir="false" afterPath="$PROJECT_DIR$/constants/soundwaves.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eslint.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/eslint.config.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/actions/companion.actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/actions/companion.actions.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/supabase.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/supabase.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/vapi.sdk.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/vapi.sdk.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middleware.ts" beforeDir="false" afterPath="$PROJECT_DIR$/middleware.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/types/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/types/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/types/vapi.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/types/vapi.d.ts" afterDir="false" />
-    </list>
+    <list default="true" id="1f049269-17bb-4727-9024-e22ad1d7cff8" name="Changes" comment="fix various issues and implement prettier / eslint" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,7 +43,6 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "js.debugger.nextJs.config.created.client": "true",
     "junie.onboarding.icon.badge.shown": "true",
@@ -149,7 +105,7 @@
       <updated>1749398613838</updated>
       <workItem from="1749398615080" duration="141000" />
       <workItem from="1749398762747" duration="75815000" />
-      <workItem from="1749959319125" duration="27103000" />
+      <workItem from="1749959319125" duration="27468000" />
     </task>
     <task id="LOCAL-00001" summary="New functional nav bar using pathname hook.">
       <option name="closed" value="true" />
@@ -231,7 +187,23 @@
       <option name="project" value="LOCAL" />
       <updated>1750027178778</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="bug fix">
+      <option name="closed" value="true" />
+      <created>1750355636563</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1750355636563</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fix various issues and implement prettier / eslint">
+      <option name="closed" value="true" />
+      <created>1750355666649</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1750355666649</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,7 +275,9 @@
     <MESSAGE value="integrated supabase" />
     <MESSAGE value="implement companion library" />
     <MESSAGE value="implement user sessions" />
+    <MESSAGE value="implemnted prettier and configured it work with eslint" />
     <MESSAGE value="bug fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="bug fix" />
+    <MESSAGE value="fix various issues and implement prettier / eslint" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix various issues and implement prettier / eslint" />
   </component>
 </project>
