@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f049269-17bb-4727-9024-e22ad1d7cff8" name="Changes" comment="added sentry for error handling and site vitality">
+    <list default="true" id="1f049269-17bb-4727-9024-e22ad1d7cff8" name="Changes" comment="implemented session history for chats that users start">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/my-journey/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/my-journey/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/CTA.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/CTA.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/CompanionCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/CompanionCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/actions/companion.actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/actions/companion.actions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,29 +43,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;js.debugger.nextJs.config.created.client&quot;: &quot;true&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/jrs/dev/saas-app&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.dev.executor&quot;: &quot;Debug&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/jrs/dev/saas-app/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "js.debugger.nextJs.config.created.client": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/Users/jrs/dev/saas-app",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.dev.executor": "Debug",
+    "prettierjs.PrettierConfiguration.Package": "/Users/jrs/dev/saas-app/node_modules/prettier",
+    "settings.editor.selected.configurable": "settings.sync",
+    "ts.external.directory.path": "/Users/jrs/dev/saas-app/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/saas-app" />
@@ -191,7 +193,31 @@
       <option name="project" value="LOCAL" />
       <updated>1750358301816</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="fixed linting errors">
+      <option name="closed" value="true" />
+      <created>1750358704851</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1750358704851</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fixed linting errors">
+      <option name="closed" value="true" />
+      <created>1750358714559</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1750358714559</updated>
+    </task>
+    <task id="LOCAL-00013" summary="implemented session history for chats that users start">
+      <option name="closed" value="true" />
+      <created>1750362728506</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1750362728506</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,6 +290,8 @@
     <MESSAGE value="implement companion library" />
     <MESSAGE value="implement user sessions" />
     <MESSAGE value="added sentry for error handling and site vitality" />
-    <option name="LAST_COMMIT_MESSAGE" value="added sentry for error handling and site vitality" />
+    <MESSAGE value="fixed linting errors" />
+    <MESSAGE value="implemented session history for chats that users start" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented session history for chats that users start" />
   </component>
 </project>
