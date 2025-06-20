@@ -1,4 +1,4 @@
-import { clerkMiddleware, createRouteMatcher } from '@clerk/nextjs/server';
+import { clerkMiddleware } from '@clerk/nextjs/server';
 
 export default clerkMiddleware();
 
@@ -11,5 +11,11 @@ export const config = {
     // Run for all routes including companions
     '/companions/:path*',
     '/companion/:path*',
+    // Run for my-journey route
+    '/my-journey/:path*',
+    // Run for sign-in route
+    '/sign-in/:path*',
+    // Run for subscription route
+    '/subscription/:path*',
   ],
 };

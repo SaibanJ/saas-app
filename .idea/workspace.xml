@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f049269-17bb-4727-9024-e22ad1d7cff8" name="Changes" comment="implemented session history for chats that users start">
+    <list default="true" id="1f049269-17bb-4727-9024-e22ad1d7cff8" name="Changes" comment="implement journey page and fix bugs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/my-journey/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/my-journey/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/CompanionsList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/CompanionsList.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/actions/companion.actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/actions/companion.actions.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middleware.ts" beforeDir="false" afterPath="$PROJECT_DIR$/middleware.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,7 +216,23 @@
       <option name="project" value="LOCAL" />
       <updated>1750362728506</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="implemented session history for chats that users start">
+      <option name="closed" value="true" />
+      <created>1750391555883</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1750391555883</updated>
+    </task>
+    <task id="LOCAL-00015" summary="implemented session history for chats that users start">
+      <option name="closed" value="true" />
+      <created>1750392795585</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1750392795585</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,6 +307,7 @@
     <MESSAGE value="added sentry for error handling and site vitality" />
     <MESSAGE value="fixed linting errors" />
     <MESSAGE value="implemented session history for chats that users start" />
-    <option name="LAST_COMMIT_MESSAGE" value="implemented session history for chats that users start" />
+    <MESSAGE value="implement journey page and fix bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="implement journey page and fix bugs" />
   </component>
 </project>
